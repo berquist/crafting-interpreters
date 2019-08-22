@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lox",
+            "request": "launch",
+            "mainClass": "com.craftinginterpreters.lox.Lox",
+            "projectName": "crafting-interpreters"
+        }
+    ]
+}
