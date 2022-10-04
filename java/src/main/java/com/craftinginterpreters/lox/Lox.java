@@ -36,7 +36,9 @@ public class Lox {
 
         for (;;) {
             System.out.print("> ");
-            run(reader.readLine());
+            String line = reader.readLine();
+            if (line == null) break;
+            run(line);
             hadError = false;
         }
     }
@@ -47,7 +49,7 @@ public class Lox {
 
         // For now, just print the tokens.
         for (Token token : tokens) {
-            System.out.print(token);
+            System.out.println(token);
         }
     }
 

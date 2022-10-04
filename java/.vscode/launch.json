@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AstPrinter",
+            "request": "launch",
+            "mainClass": "com.craftinginterpreters.lox.AstPrinter",
+            "projectName": "crafting-interpreters"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateAst",
+            "request": "launch",
+            "mainClass": "com.craftinginterpreters.tool.GenerateAst",
+            "projectName": "crafting-interpreters"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Lox",
             "request": "launch",
             "mainClass": "com.craftinginterpreters.lox.Lox",
