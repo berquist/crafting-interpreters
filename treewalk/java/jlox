@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+java -cp "${SCRIPTDIR}"/target/classes com.craftinginterpreters.lox.Lox $@
