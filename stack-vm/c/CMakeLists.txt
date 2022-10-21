@@ -7,6 +7,7 @@ set(SRC
     src/debug.c
     src/main.c
     src/memory.c
+    src/value.c
 )
 
 add_executable(clox ${SRC})
