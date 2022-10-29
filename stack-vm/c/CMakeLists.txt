@@ -14,4 +14,5 @@ set(SRC
 )
 
 add_executable(clox ${SRC})
+add_compile_definitions(DEBUG_PRINT_CODE)
 add_compile_definitions(DEBUG_TRACE_EXECUTION)
